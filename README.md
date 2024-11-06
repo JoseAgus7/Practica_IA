@@ -1,8 +1,8 @@
 # Proyecto Git
 
 ## Roles
-- **Alumno 1**: [Nombre del Alumno 1]
-- **Alumno 2**: [Nombre del Alumno 2]
+- **Alumno 1**: José Agustín Cabrera Castillo
+- **Alumno 2**: Alberto Muñoz Piña
 
 ## Comandos utilizados
 
