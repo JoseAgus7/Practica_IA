@@ -1,6 +1,3 @@
-Aquí tienes cada punto completamente en formato Markdown:
-
-```markdown
 # Proyecto Git
 
 ## Roles
@@ -93,6 +90,5 @@ Aquí tienes cada punto completamente en formato Markdown:
 
 5. **Agregar colaborador**:  
    Finalmente, agrego a mi compañero.
-```
 
 
