@@ -92,3 +92,18 @@
    Finalmente, agrego a mi compañero.
 
 
+### Ejercicios
+
+#### Ejercicio 3: Creación e inicialización de un repositorio (Alumno 1) 
+
+#### Ejercicio 4: Clonar repositorio (Alumno 2) 
+
+#### Ejercicio 4: Clonar repositorio (Alumno 2) 
+
+#### Ejercicio 5. Actualización README (Alumno 1)
+
+#### Ejercicio 6. Información importante (ambos) 
+
+#### Ejercicio 7. Creación de ramas (ambos)
+
+#### Ejercicio 8. Listar ramas (ambos) 
