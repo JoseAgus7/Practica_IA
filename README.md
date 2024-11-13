@@ -86,3 +86,9 @@ Para listar las ramas locales y remotas he usado:
    ```bash
    git branch -a
    ```
+### Ejercicio 9. Modifica el Alumno 1 y Alumno 2 en sus ramas, archivos distintos (ambos) 
+Para añadir el nuevo fichero he usado:
+   ```bash
+   git add .
+   git commit -m "Añadiendo fichero cliente.java"
+   ```
