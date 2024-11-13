@@ -84,3 +84,6 @@ git branch
 Esto mostrará todas las ramas locales en tu repositorio. Cada rama aparecerá en una nueva línea.
 
 El asterisco `*` al lado de una de las ramas indica la **rama en la que te encuentras actualmente**. Es decir, la rama activa, en la cual se aplicarán los cambios y commits que realices en ese momento.
+
+### Ejercicio 9. Modifica el Alumno 1 y Alumno 2 en sus ramas, archivos distintos (ambos)
+He realizado el cambio creando el archivo almacen_cli.java
