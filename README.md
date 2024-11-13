@@ -105,3 +105,5 @@ git diff nombre-de-tu-rama master
 ```
 
 Este comando permite ver rápidamente los cambios entre ambas ramas.
+### Ejercicio 11.  Merge sin conflictos
+No hemos podido hacer de forma idéntica los comandos porque tanto Alumno1 como Alumno2 han estado respondiendo pregunta a pregunta en este README.md, se han aceptado los cambios de Alumno1 y se ha pdido seguir sin problema.
