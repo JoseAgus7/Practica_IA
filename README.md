@@ -97,3 +97,4 @@ Para hacer las comparaciones he usado:
    ```bash
    git diff ramaAlumno2 master
    ```
+Lo he hecho en menos de 1 minuto.
