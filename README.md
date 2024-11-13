@@ -105,5 +105,12 @@ git diff nombre-de-tu-rama master
 ```
 
 Este comando permite ver rápidamente los cambios entre ambas ramas.
+
 ### Ejercicio 11.  Merge sin conflictos
 No hemos podido hacer de forma idéntica los comandos porque tanto Alumno1 como Alumno2 han estado respondiendo pregunta a pregunta en este README.md, se han aceptado los cambios de Alumno1 y se ha pdido seguir sin problema.
+
+### Ejercicio 12. Credenciales
+No nos ha pedido credenciales pero para sacar el log de cada usuario y almacenarlo en LogAlumnoX.txt (siendo X, 1 o 2) hemos usado:
+```bash
+git log > LogAlumnoX.txt
+```
