@@ -74,3 +74,15 @@ Para cambiar el nombre de la rama he usado:
    git branch -m <nombre_nuevo_rama>
    ```
 ### Ejercicio 8. Listar ramas (ambos) 
+Para listar las ramas locales he usado:
+   ```bash
+   git branch 
+   ```
+Para listar las ramas remotas he usado:
+   ```bash
+   git branch -r
+   ```
+Para listar las ramas locales y remotas he usado:
+   ```bash
+   git branch -a
+   ```
