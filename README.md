@@ -85,5 +85,23 @@ Esto mostrará todas las ramas locales en tu repositorio. Cada rama aparecerá e
 
 El asterisco `*` al lado de una de las ramas indica la **rama en la que te encuentras actualmente**. Es decir, la rama activa, en la cual se aplicarán los cambios y commits que realices en ese momento.
 
-### Ejercicio 9. Modifica el Alumno 1 y Alumno 2 en sus ramas, archivos distintos (ambos)
+### Ejercicio 9. Modifica el Alumno 1 y Alumno 2 en sus ramas, archivos distintos 
 He realizado el cambio creando el archivo almacen_cli.java
+
+### Ejercicio 10. Ver las diferencias (ambos)
+
+Si deseas ver las diferencias entre tu rama actual y la rama `master`, puedes usar el siguiente comando:
+
+```bash
+git diff master
+```
+
+Este comando mostrará los cambios en tu rama actual en comparación con `master`. Es útil para revisar las modificaciones antes de hacer un merge o subir el código al repositorio común.
+
+Si estás en otra rama y quieres ver las diferencias específicas entre esa rama y `master` sin cambiar de rama, puedes usar:
+
+```bash
+git diff nombre-de-tu-rama master
+```
+
+Este comando permite ver rápidamente los cambios entre ambas ramas.
