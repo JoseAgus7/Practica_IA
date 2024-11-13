@@ -1,0 +1,139 @@
+commit cd01e461e68fcb84650805089948f3a32413d200
+Author: Alberto-mp <alberto.munozpina@alum.uca.es>
+Date:   Wed Nov 13 11:46:31 2024 +0100
+
+    Actividad 11
+
+commit 40e6bc18b1a5c4b5f22d148fec7963454f9cd779
+Merge: 39b8e04 ac411a4
+Author: Alberto-mp <alberto.munozpina@alum.uca.es>
+Date:   Wed Nov 13 11:43:20 2024 +0100
+
+    Acepto cambios
+
+commit 39b8e0423a7524500acd0bf870e1045a06fc8d90
+Author: JoseAgus7 <joseagustin.cabreracastillo@gmail.com>
+Date:   Wed Nov 13 12:52:25 2024 +0100
+
+    Ejercicio 10 completado
+
+commit 26c82b399484446b90571efc6a5366288c62b79d
+Author: JoseAgus7 <joseagustin.cabreracastillo@gmail.com>
+Date:   Wed Nov 13 12:48:43 2024 +0100
+
+    Ejercicio 9 completado
+
+commit 2083613a8c779a336355bf5cc3dbd86ec0f5c0b3
+Author: JoseAgus7 <joseagustin.cabreracastillo@gmail.com>
+Date:   Wed Nov 13 12:46:41 2024 +0100
+
+    Añadiendo fichero almacen_cli.java
+
+commit 94bd011322dd9b03b7084d0b80943c84791093fb
+Author: JoseAgus7 <joseagustin.cabreracastillo@gmail.com>
+Date:   Wed Nov 13 12:43:53 2024 +0100
+
+    Ejercicio 8 completado
+
+commit ac411a40298cd2f6ae44e5e273305519fb595abf
+Author: Alberto-mp <alberto.munozpina@alum.uca.es>
+Date:   Wed Nov 13 11:40:28 2024 +0100
+
+    Actualizacion modificado
+
+commit 788f37c764451e496fd5dc1024660b1a703b284c
+Author: Alberto-mp <alberto.munozpina@alum.uca.es>
+Date:   Wed Nov 13 11:36:14 2024 +0100
+
+    Diferencias observadas
+
+commit 5106403cd586b010071c7f56d143a50316c0ac4f
+Author: Alberto-mp <alberto.munozpina@alum.uca.es>
+Date:   Wed Nov 13 11:33:01 2024 +0100
+
+    Readme actualizado
+
+commit db336f2ac6316bde3d3c59a274351f66e0cbcdc5
+Author: Alberto-mp <alberto.munozpina@alum.uca.es>
+Date:   Wed Nov 13 11:31:18 2024 +0100
+
+    Añadiendo fichero cliente.java
+
+commit d5a7b434949833af77af0ee4c85c56a7a0193cc0
+Author: Alberto-mp <alberto.munozpina@alum.uca.es>
+Date:   Wed Nov 13 11:29:16 2024 +0100
+
+    Readme actualizado
+
+commit 9a0ca579e1b5786a6f6c28f483f9c9b415b15eb9
+Author: Alberto-mp <alberto.munozpina@alum.uca.es>
+Date:   Wed Nov 13 11:23:06 2024 +0100
+
+    Readme actualizado
+
+commit cb19a0a405e49aae590a0dbdbac21733db925c75
+Merge: eb11606 b566a73
+Author: Alberto-mp <alberto.munozpina@alum.uca.es>
+Date:   Wed Nov 13 11:22:16 2024 +0100
+
+    Readme adecuacion
+
+commit b566a730eb411dcd309be37a36dcd1293b4ce362
+Author: JoseAgus7 <joseagustin.cabreracastillo@gmail.com>
+Date:   Wed Nov 13 12:19:28 2024 +0100
+
+    Cambios en el README
+
+commit eb11606c845f5af1073c461895f533f6d977aa4b
+Author: Alberto-mp <alberto.munozpina@alum.uca.es>
+Date:   Wed Nov 13 11:14:13 2024 +0100
+
+    Fixes en el readme
+
+commit 75bae82ba9b8f46ee1c17d51771717eb0eaa9b1d
+Author: Alberto-mp <alberto.munozpina@alum.uca.es>
+Date:   Wed Nov 13 11:02:51 2024 +0100
+
+    Actualizacion del readme.md
+
+commit 6f5eee4415b9fcb5495584f4a85718af9e7d9e78
+Author: Alberto-mp <alberto.munozpina@alum.uca.es>
+Date:   Wed Nov 13 10:58:25 2024 +0100
+
+    Actualizacion README.md
+
+commit cb26a080febee3124e94038ce5b45a848a841f75
+Author: JoseAgus7 <joseagustin.cabreracastillo@gmail.com>
+Date:   Sun Nov 10 21:46:15 2024 +0100
+
+    Arreglo visualizacin README
+
+commit 5040fd481c2e89b66c200bb77dd57f6168345c60
+Author: JoseAgus7 <joseagustin.cabreracastillo@gmail.com>
+Date:   Sun Nov 10 21:44:50 2024 +0100
+
+    Actualizacion correcta del README
+
+commit 3b6ba16a5a0be270ced464512a439db60f208c5f
+Author: JoseAgus7 <joseagustin.cabreracastillo@gmail.com>
+Date:   Sun Nov 10 21:38:28 2024 +0100
+
+    Actualizacion de README
+
+commit 20ab51c18abb609f681362d0f11b9f7da84cdb57
+Author: Alberto-mp <alberto.munozpina@alum.uca.es>
+Date:   Wed Nov 6 12:52:04 2024 +0100
+
+    Nombres actualizados de roles
+
+commit 758ca4fd5c3513e6bcf39339ffb9a9d1aa915e70
+Author: Alberto-mp <alberto.munozpina@alum.uca.es>
+Date:   Wed Nov 6 12:44:52 2024 +0100
+
+    Añadir archivo README.md con información sobre roles y comandos
+
+commit e90169909dccc11f88761d76b158556a6970043d
+Author: JoseAgus7 <joseagustin.cabreracastillo@gmail.com>
+Date:   Wed Nov 6 12:32:33 2024 +0100
+
+    Añadiendo Farmacia
