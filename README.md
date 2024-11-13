@@ -92,3 +92,8 @@ Para añadir el nuevo fichero he usado:
    git add .
    git commit -m "Añadiendo fichero cliente.java"
    ```
+### Ejercicio 10. Ver las diferencias (ambos) 
+Para hacer las comparaciones he usado:
+   ```bash
+   git diff ramaAlumno2 master
+   ```
