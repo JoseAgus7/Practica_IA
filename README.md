@@ -74,3 +74,13 @@ Para cambiar el nombre de la rama he usado:
    git branch -m <nombre_nuevo_rama>
    ```
 ### Ejercicio 8. Listar ramas (ambos) 
+
+Para listar las ramas en tu proyecto y ver el número de ellas, puedes usar el siguiente comando:
+
+```bash
+git branch
+```
+
+Esto mostrará todas las ramas locales en tu repositorio. Cada rama aparecerá en una nueva línea.
+
+El asterisco `*` al lado de una de las ramas indica la **rama en la que te encuentras actualmente**. Es decir, la rama activa, en la cual se aplicarán los cambios y commits que realices en ese momento.
