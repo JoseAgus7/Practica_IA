@@ -1,5 +1,8 @@
 # Proyecto Git
 
+## Direccion del repositorio
+[GitHub](https://github.com/JoseAgus7/Practica_IA.git)
+
 ## Roles
 - **Alumno 1**: José Agustín Cabrera Castillo
 - **Alumno 2**: Alberto Muñoz Piña
@@ -113,4 +116,11 @@ No hemos podido hacer de forma idéntica los comandos porque tanto Alumno1 como 
 No nos ha pedido credenciales pero para sacar el log de cada usuario y almacenarlo en LogAlumnoX.txt (siendo X, 1 o 2) hemos usado:
 ```bash
 git log > LogAlumnoX.txt
+```
+
+### Ejercicio 13. Entrega Parcial
+Para guardar los cambios hemos usado:
+```bash
+git add .
+git commit -m "Entrega parcial"
 ```
