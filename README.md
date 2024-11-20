@@ -6,6 +6,8 @@
 ## Roles
 - **Alumno 1**: José Agustín Cabrera Castillo
 - **Alumno 2**: Alberto Muñoz Piña
+- **Alumno 3**: Jesús García Sánchez
+- **Alumno 4**: Jose Antonio Montes Solano y Manuel Pedrajas Ochoa
 
 ## Ejercicios
 
