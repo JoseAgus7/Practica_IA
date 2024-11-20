@@ -646,5 +646,97 @@ consultar_cliente()");
 }
 }
 
+public static void addMedicamento_Almacen(Almacen almacen) {
+    Scanner scanner = new Scanner(System.in);
+    String input;
+    boolean validInput;
+    int intFlag;
+    float floatFlag;
+
+    Medicamento medicamento = new Medicamento();
+
+    // Solicitar código del medicamento
+    System.out.println("Introduzca el código del medicamento:");
+    do {
+        input = scanner.next();
+        validInput = comprobar_entero(input);
+        if (!validInput) {
+            System.out.println("Por favor, introduzca un número válido.");
+        }
+    } while (!validInput);
+    intFlag = Integer.parseInt(input);
+    medicamento.setCod_med(intFlag);
+
+    // Solicitar nombre del medicamento
+    System.out.println("Introduzca el nombre del medicamento:");
+    input = scanner.next().toLowerCase();
+    medicamento.setNombre_med(input);
+
+    // Solicitar composición del medicamento
+    System.out.println("Introduzca la composición del medicamento:");
+    input = scanner.next().toLowerCase();
+    medicamento.setComp_med(input);
+
+    // Solicitar categoría del medicamento
+    System.out.println("Introduzca la categoría del medicamento:");
+    input = scanner.next().toLowerCase();
+    medicamento.setCat_med(input);
+
+    // Solicitar formato del medicamento
+    System.out.println("Introduzca el formato del medicamento:");
+    input = scanner.next().toLowerCase();
+    medicamento.setFormato_med(input);
+
+    // Solicitar si requiere receta
+    System.out.println("Introduzca 'si' en caso de necesitar receta o 'no' en caso contrario:");
+    boolean recetaValida = false;
+    boolean requiereReceta = true;
+    do {
+        input = scanner.next().toLowerCase();
+        if (input.equals("si")) {
+            requiereReceta = true;
+            recetaValida = true;
+        } else if (input.equals("no")) {
+            requiereReceta = false;
+            recetaValida = true;
+        } else {
+            System.out.println("Entrada inválida. Por favor, introduzca 'si' o 'no'.");
+        }
+    } while (!recetaValida);
+    medicamento.setReceta_med(requiereReceta);
+
+    // Solicitar stock del medicamento
+    System.out.println("Introduzca el stock del medicamento:");
+    do {
+        input = scanner.next();
+        validInput = comprobar_entero(input);
+        if (!validInput) {
+            System.out.println("Por favor, introduzca un número válido.");
+        }
+    } while (!validInput);
+    intFlag = Integer.parseInt(input);
+    medicamento.setStock_med(intFlag);
+
+    // Solicitar precio unitario del medicamento
+    System.out.println("Introduzca el precio unitario del medicamento:");
+    do {
+        input = scanner.next();
+        validInput = comprobar_flotante(input); // Asumo que hay un método similar para validar flotantes.
+        if (!validInput) {
+            System.out.println("Por favor, introduzca un número válido.");
+        }
+    } while (!validInput);
+    floatFlag = Float.parseFloat(input);
+    medicamento.setPrecio_med(floatFlag);
+
+    // Añadir el medicamento al almacén
+    almacen.introduce_medicamento_Almacen(medicamento);
+
+    // Mostrar detalles del medicamento
+    System.out.println("Medicamento añadido al almacén:");
+    System.out.println("-----------------------------------------");
+    medicamento.mostrar_detalles_med();
+    System.out.println("-----------------------------------------");
+}
 
 
