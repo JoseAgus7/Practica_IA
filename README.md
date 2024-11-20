@@ -137,3 +137,24 @@ git checkout master
 git pull
 git branch -r
 ```
+### Ejercicio 16. Modifican los alumnos en sus ramas, cada uno en su rama
+Cada alumno ha trabajado en su rama.
+Para poder añadir los cambios respectivosn en src/jungle ha realizado:
+```bash
+git add .
+git commit -m "Comentario"
+```
+### Ejercicio 17. ¿Qué ha cambiado?
+Utilizamos el siguiente comando:
+```bash
+git log --pretty=format:"commit %H%nAuthor: %an%nCommitter: %cn%nMessage: %s" --name-only
+```
+Y nos muestra la sieguiente informacion:
+▪ sha1 
+▪ autor 
+▪ quién hizo el commit 
+▪ mensaje del commit
+
+### Ejercicio 18.Merge sin conflictos
+Hemos usado  el comando git checkout master para volver a la rama principal, hacemos un git pull para obtener la ultima version, hacemos un git merge ramaAlumnoX para añadir los cambios de cada alumno y luego hacemos un push para subir los cambios
+este proceso se ha realizado en el orden: Alumno 3 - Alumno 2 - Alumno 4 - Alumno 1
