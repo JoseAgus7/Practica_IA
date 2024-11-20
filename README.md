@@ -170,3 +170,22 @@ Esto se ejecuta para traer la rama de remoto a local, ya que ninguno había trab
 ### Ejercicio 20. Merge con conflictos
 El primero no ha sufrido problemas porque es el primero en subir un archivo que antes no existía. El resto ha tenido que tratar con los cambios y finalmente se ha decidido que el codigo de alumno 4 era el mejor. Por lo que al hacer git merge ramaAlumno3 se añade LineaDeCompra.java de la version creada por Alumno4. El más rápido fue el alumno 3. 
 
+### Ejercicio 21. Historial de commits
+Utilizamos el siguiente comando:
+```bash
+git shortlog -s -n --all --no-merges
+```
+Para el uso de cherry ejecutamos:
+```bash
+git cherry -v master ramaDestino
+```
+git cherry: Compara dos ramas para encontrar commits únicos.
+-v: Muestra los mensajes de los commits junto con sus hashes.
+master: La rama base con la que deseas comparar.
+ramaDestino: La rama donde buscas los commits que no están en master.
+
+### Ejercicio 22. Eliminar rama remota secundaria
+Utilizamos el siguiente comando:
+```bash
+git push origin --delete investigacion
+```
