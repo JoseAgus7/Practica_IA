@@ -158,3 +158,15 @@ Y nos muestra la sieguiente informacion:
 ### Ejercicio 18.Merge sin conflictos
 Hemos usado  el comando git checkout master para volver a la rama principal, hacemos un git pull para obtener la ultima version, hacemos un git merge ramaAlumnoX para añadir los cambios de cada alumno y luego hacemos un push para subir los cambios
 este proceso se ha realizado en el orden: Alumno 3 - Alumno 2 - Alumno 4 - Alumno 1
+
+### Ejercicio 19. Modificar cada alumno en su rama, mismo archivo
+Los alumnos 1 y 3 crean los ficheros compra.java y lineaDeCompra.java respectivamente, guardan y hacen commit. Después cada alumno hace las modificaciones que se solicitan.
+Todos los alumnos menos el 3, han tenido que ejecutar la orden:
+```bash
+git checkout -b ramaAlumno3 origin/ramaAlumno3
+```
+Esto se ejecuta para traer la rama de remoto a local, ya que ninguno había trabajado con ella hasta el momento.
+
+### Ejercicio 20. Merge con conflictos
+El primero no ha sufrido problemas porque es el primero en subir un archivo que antes no existía. El resto ha tenido que tratar con los cambios y finalmente se ha decidido que el codigo de alumno 4 era el mejor. Por lo que al hacer git merge ramaAlumno3 se añade LineaDeCompra.java de la version creada por Alumno4. El más rápido fue el alumno 3. 
+
