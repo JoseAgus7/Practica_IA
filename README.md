@@ -126,3 +126,14 @@ Para guardar los cambios hemos usado:
 git add .
 git commit -m "Entrega parcial"
 ```
+
+### Ejercicio 15. Crear ramas remotas y rama de investigación
+Para guardar los cambios hemos usado:
+```bash
+git checkout -b ramaAlumnoX
+git add .
+git commit -m "Nueva rama Alumno X"
+git checkout master
+git pull
+git branch -r
+```
